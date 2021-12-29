@@ -10,7 +10,7 @@
     background-color: blueviolet;
     height: 200px;
     margin: 100px auto;
-    /* padding: 0 35px; */
+    padding: 0 35px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -58,6 +58,11 @@
     justify-content: center;
     align-items: center; 
     margin:  0 10px;
-    flex-grow: 1;
-    flex-shrink: 1;
+    /* flex-grow: 1;
+    flex-shrink: 1; */
+    min-width: 100px;
+    max-width: 200px;
+    flex-basis: auto;
+    flex-basis: 0;
+    flex-basis: 100px;
 }
