@@ -41,8 +41,8 @@
     justify-content: space-around;
     justify-content: space-between;
     justify-content: space-evenly; */
-    flex-wrap: wrap;
-    align-content: space-between;
+    /* flex-wrap: wrap;
+    align-content: space-between; */
 }
 
 .flex-item{
